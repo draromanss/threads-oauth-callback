@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Client Hunter privacy policy: Threads account data, keyword search, retention, service providers and data deletion requests.">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy | Client Hunter</title>
+  <style>
+    :root{color-scheme:dark;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#10101b;color:#f7f4ff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;line-height:1.7}
+    a{color:#c2aaff;text-underline-offset:3px}a:hover{color:#dfd2ff}
+    .shell{max-width:850px;margin:auto;padding:30px 22px 90px}
+    header{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:7px 0 36px;border-bottom:1px solid #39324e}
+    .brand{font-size:14px;font-weight:800;letter-spacing:.15em;color:#bb9cff;text-transform:uppercase}
+    .lang{font-size:14px;color:#d0c9e0;display:flex;gap:18px}
+    main{padding-top:30px}.tag{color:#baa4f9;text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:750}
+    h1{font-size:clamp(32px,5vw,51px);letter-spacing:-.035em;line-height:1.12;margin:12px 0 15px}
+    h2{font-size:21px;line-height:1.3;margin:39px 0 10px;color:#fff}
+    p,li{color:#ded9ea}p{margin:11px 0}ul{padding-left:22px}li{margin:5px 0}
+    .intro{font-size:18px;color:#f1eafa}.meta{font-size:13px;color:#aaa3bc}
+    .notice{border:1px solid #5b4b82;border-left:4px solid #b394ff;background:#221c36;padding:19px 21px;border-radius:12px;margin:27px 0}
+    .notice p{margin:0}.section{scroll-margin-top:24px}
+    .divider{margin:54px 0;border:0;border-top:1px solid #39324e}
+    footer{margin-top:55px;padding-top:20px;border-top:1px solid #39324e;font-size:13px;color:#aba5ba}
+    :focus-visible{outline:3px solid #c9b4ff;outline-offset:4px}
+    @media(max-width:500px){.shell{padding:20px 17px 70px}.notice{padding:14px}}
+  </style>
+</head>
+<body>
+<div class="shell">
+  <header>
+    <div class="brand">Client Hunter · Threads</div>
+    <nav class="lang" aria-label="Language"><a href="#english">English</a><a href="#russian" lang="ru">Русский</a></nav>
+  </header>
+  <main>
+  <article id="english" lang="en">
+    <div class="tag">Transparency &amp; privacy</div>
+    <h1>Privacy Policy</h1>
+    <p class="intro">How Client Hunter handles Threads data when a user connects an account, searches public posts, and reviews possible replies.</p>
+    <p class="meta">Effective date: September 16, 2026 · App: Client Hunter / Client Hunter Threads</p>
+    <div class="notice"><p><strong>Current status:</strong> Client Hunter's Threads integration is an owner-operated testing prototype. Keyword search and a local review console are available. Background Threads monitoring and automated reply publishing are not enabled. A real reply, if that feature is deliberately enabled later, requires an explicit action by the account owner. This page describes both current processing and the optional read-only lead-scanning module where indicated.</p></div>
+
+    <section class="section"><h2>1. Who operates the app and how to contact us</h2>
+      <p>Client Hunter is operated by the Client Hunter project team. Privacy, access, correction, objection and deletion inquiries: <a href="mailto:woruljye120@hotmail.com?subject=Client%20Hunter%20privacy%20request">woruljye120@hotmail.com</a>. Please use the subject “Client Hunter privacy request.” Do not send passwords, access tokens, or identity documents in your first email.</p>
+    </section>
+    <section class="section"><h2>2. Data we process</h2>
+      <ul>
+        <li><strong>Connected Threads account:</strong> the account identifier, username and basic profile information returned by the Threads API, granted permissions, and the OAuth access token needed to make authorized API calls. During authorization, a one-time code and anti-forgery state are processed in the browser and exchanged on the server.</li>
+        <li><strong>Public Threads content:</strong> matching post IDs, authors' public usernames, post text, permalinks and timestamps returned by searches. This may include posts written by people who have not connected their accounts to Client Hunter.</li>
+        <li><strong>Owner actions:</strong> search keywords and, if manual publishing is explicitly enabled, the text and target post chosen for a reply.</li>
+        <li><strong>Optional lead-scanning records:</strong> identifiers of previously handled posts to avoid duplicates; relevant public post text and short evidence excerpts used to classify whether a post appears to request marketing assistance.</li>
+      </ul>
+      <p>We do not ask users for their Threads password. The local console does not place the access token in the browser or in a public repository.</p>
+    </section>
+    <section class="section"><h2>3. Why and how we use the data</h2>
+      <p>We use an account's authorized data to verify its connection, search Threads using a keyword supplied by the owner, display matching posts for review, and, only if separately enabled and individually confirmed, publish a specific reply selected by the owner. The optional lead-scanning module can remove duplicate and own-account posts, classify relevant public posts and send selected results to the operator for manual review. Its purpose is to help the connected user manage social media activity and discover relevant public conversations, not to impersonate other users or send unattended bulk replies.</p>
+      <p>Where applicable, processing is undertaken to deliver the service requested by the connected account owner, and limited processing of public content is assessed against legitimate interests in relevant social media engagement and applicable rights of other people. You may contact us to object or ask for deletion of information under our control.</p>
+    </section>
+    <section class="section"><h2>4. Service providers and disclosures</h2>
+      <ul>
+        <li><strong>Meta / Threads:</strong> provides account authorization, public search and, only after individual approval, reply publishing through its API. Meta handles data under its own policies.</li>
+        <li><strong>Hosting:</strong> the app's server stores the access token and operational files. Access to the prototype console is restricted to the operator through a local interface and SSH forwarding.</li>
+        <li><strong>Groq (optional lead scanning):</strong> relevant public post text may be sent to Groq's API for classification. Classification evidence and decisions may be cached locally. Groq's handling of API inputs is governed by its applicable terms.</li>
+        <li><strong>Telegram (optional notifications):</strong> selected public post text, authors and links may be delivered to the operator via a Telegram bot for manual review. Copies in Telegram are also subject to Telegram's service and retention controls.</li>
+        <li><strong>GitHub Pages:</strong> hosts this public policy and a temporary OAuth redirect page; GitHub may log visitor IP addresses for security. The redirect page displays the one-time authorization code locally in the browser, but the hosting provider may log the initial callback URL.</li>
+      </ul>
+      <p>We do not sell Threads account tokens or personal data. We do not use this prototype to create advertising audience profiles from identifiable Threads data.</p>
+    </section>
+    <section class="section"><h2>5. Storage and retention</h2>
+      <p>Access tokens are kept in private server configuration or restricted local files until replaced, revoked or deleted. Search results in the local console are held in process memory and cleared when that process stops. If optional lead scanning is enabled, it keeps up to 2,000 previously handled post IDs in a local deduplication file; records rotate as new IDs are added. The Groq classification cache has an expiry of up to seven days per entry (shorter for uncertain results). Telegram notifications may remain in the recipient's chat until deleted there; third-party providers may have independent retention obligations.</p>
+      <p>We delete data under our control when no longer needed for the described purpose, when an account is disconnected and deletion is requested, or when required by applicable law or Meta's rules. Necessary legal records may be retained only when legally required.</p>
+    </section>
+    <section id="deletion" class="section"><h2>6. Access, correction, disconnection and deletion requests</h2>
+      <p>Email <a href="mailto:woruljye120@hotmail.com?subject=Client%20Hunter%20data%20deletion">woruljye120@hotmail.com</a> with the subject <strong>Client Hunter data deletion</strong>. Identify your Threads username or the public post URL involved and state whether you wish to disconnect an account, remove specific public-post records, or delete all information associated with your use of the app. We may request a minimal proof of account or post ownership before acting; please do not email passwords or tokens.</p>
+      <p>After verifying the request, we will remove data we control without undue delay, including the relevant local records and token where applicable, and address copies sent to our own notification systems where possible. We cannot delete the original post from Threads or guarantee deletion from a third party's independent systems; for those requests, contact the relevant provider. Revoking Client Hunter's access in Threads/Meta settings stops further authorized access but does not by itself guarantee deletion of existing local copies; use the email above to request that as well. We will respond through the same contact channel.</p>
+    </section>
+    <section class="section"><h2>7. Security and website technologies</h2>
+      <p>We limit app access to the operator, use HTTPS for API calls, and store tokens outside public GitHub code. No analytics scripts, advertising pixels or tracking cookies are embedded in this policy page. The temporary GitHub Pages authorization callback is not a production-grade replacement for a secure server-side OAuth redirect; it will be replaced before a broader release.</p>
+    </section>
+    <section class="section"><h2>8. Changes</h2>
+      <p>We will update this policy if app functionality, data flows, providers, or retention practices change. The effective date at the top will be revised. The operator must check that this policy matches actual operations before production release or an App Review submission.</p>
+    </section>
+  </article>
+
+  <hr class="divider">
+  <article id="russian" lang="ru">
+    <div class="tag">Конфиденциальность</div>
+    <h1>Политика конфиденциальности</h1>
+    <p class="intro">Как Client Hunter обрабатывает данные Threads при подключении аккаунта, поиске публичных публикаций и рассмотрении ответов.</p>
+    <p class="meta">Дата вступления в силу: 16 сентября 2026 г. · Приложение: Client Hunter / Client Hunter Threads</p>
+    <div class="notice"><p><strong>Текущий статус:</strong> интеграция Threads — тестовый прототип под управлением владельца. Доступны поиск и локальный интерфейс. Фоновый мониторинг Threads и автоматическая публикация ответов выключены. Реальная отправка ответа при отдельном включении функции требует явного действия владельца аккаунта. Ниже отдельно описаны функции необязательного модуля отбора заявок.</p></div>
+    <section class="section"><h2>1. Кто отвечает за приложение и как связаться</h2>
+      <p>Оператор — команда проекта Client Hunter. Запросы о доступе, исправлении, возражении и удалении данных направляйте на <a href="mailto:woruljye120@hotmail.com?subject=Client%20Hunter%20privacy%20request">woruljye120@hotmail.com</a> с темой «Client Hunter privacy request». Не присылайте в первом письме пароли, токены или документы.</p>
+    </section>
+    <section class="section"><h2>2. Какие данные обрабатываются</h2>
+      <ul>
+        <li><strong>Подключённый аккаунт Threads:</strong> идентификатор, имя пользователя, базовые сведения профиля, предоставленные разрешения и OAuth-токен для запросов к API. При авторизации браузер обрабатывает одноразовый код и параметр state; обмен на токен происходит на сервере.</li>
+        <li><strong>Публичные публикации:</strong> ID, публичные имена авторов, тексты, ссылки и даты, полученные по поисковым запросам. Среди них могут быть публикации лиц, не подключавших аккаунты к Client Hunter.</li>
+        <li><strong>Действия владельца:</strong> поисковые слова, а при отдельном включении ручной отправки — текст ответа и выбранная публикация.</li>
+        <li><strong>При включении отбора заявок:</strong> ID обработанных публикаций для защиты от дубликатов; тексты и короткие цитаты, необходимые для определения релевантности запроса.</li>
+      </ul>
+      <p>Мы не запрашиваем пароль Threads. Локальный интерфейс не передаёт токен в браузер и не публикует его в GitHub.</p>
+    </section>
+    <section class="section"><h2>3. Цели обработки</h2>
+      <p>Данные нужны для подключения аккаунта, поиска по словам владельца, показа результатов и публикации конкретного ответа исключительно после отдельного подтверждения при включённой функции. Необязательный модуль отбора заявок исключает дубликаты и собственные посты, классифицирует релевантные публикации и передаёт отобранные результаты оператору для ручной проверки. Цель — помощь в управлении присутствием в соцсети, а не автоматическая массовая рассылка.</p>
+      <p>При применимости соответствующих правовых норм обработка основана на запросе владельца подключённого аккаунта; ограниченная обработка публичных материалов оценивается с учётом законных интересов и прав других лиц. Можно направить возражение или запрос об удалении.</p>
+    </section>
+    <section class="section"><h2>4. Сторонние сервисы</h2>
+      <ul>
+        <li><strong>Meta / Threads:</strong> авторизация, поиск и публикация вручную одобренных ответов через API.</li>
+        <li><strong>Сервер приложения:</strong> приватное хранение токена и рабочих файлов; локальный интерфейс доступен оператору через SSH.</li>
+        <li><strong>Groq (необязательный отбор):</strong> текст релевантной публичной публикации может передаваться через API для классификации; короткие цитаты и решения кэшируются локально. На стороне Groq действуют условия этого провайдера.</li>
+        <li><strong>Telegram (необязательные уведомления):</strong> оператору могут отправляться текст публичного поста, автор и ссылка для ручной проверки. Копии в Telegram также регулируются правилами сервиса.</li>
+        <li><strong>GitHub Pages:</strong> размещает эту страницу и временную страницу OAuth. GitHub может фиксировать IP-адреса посетителей в целях безопасности. OAuth-код отображается в браузере, но первоначальный URL перенаправления может попасть в журналы хостинга.</li>
+      </ul>
+      <p>Мы не продаём токены или персональные данные. Прототип не создаёт рекламные аудитории из идентифицируемых данных Threads.</p>
+    </section>
+    <section class="section"><h2>5. Хранение</h2>
+      <p>Токены хранятся в закрытых файлах или настройках сервера до замены, отзыва или удаления. Результаты в локальном интерфейсе хранятся в памяти процесса до его остановки. При включённом отборе заявок локальный файл содержит до 2 000 ID ранее обработанных публикаций; старые записи постепенно вытесняются. Кэш классификации Groq хранится до семи дней на запись (для неопределённых ответов — меньше). Уведомления могут оставаться в чате Telegram до удаления; у сторонних провайдеров могут быть собственные сроки хранения.</p>
+      <p>Данные под нашим контролем удаляются, когда больше не нужны для указанных целей, при проверенном запросе после отключения аккаунта или когда этого требует закон либо правила Meta. Сведения, обязательные к хранению по закону, могут сохраняться только по соответствующему основанию.</p>
+    </section>
+    <section id="udalenie" class="section"><h2>6. Доступ, исправление, отключение и удаление</h2>
+      <p>Напишите на <a href="mailto:woruljye120@hotmail.com?subject=Client%20Hunter%20data%20deletion">woruljye120@hotmail.com</a> с темой <strong>Client Hunter data deletion</strong>. Укажите ваш username Threads или ссылку на публикацию и уточните, что нужно: отключение аккаунта, удаление отдельных записей либо всех данных, связанных с использованием приложения. Для защиты данных мы можем запросить минимальное подтверждение владения аккаунтом или публикацией. Не отправляйте пароли и токены.</p>
+      <p>После проверки запроса мы без необоснованной задержки удалим соответствующие сведения под нашим контролем, включая записи и токен, если применимо, а также примем меры к удалению копий в собственных уведомлениях, где это возможно. Мы не можем удалить оригинальную публикацию в Threads или гарантировать удаление из независимых систем сторонних сервисов. Отзыв доступа к приложению в настройках Meta/Threads прекращает дальнейший доступ, но не гарантирует автоматическое удаление ранее сохранённых копий — для этого направьте письмо. Ответим по тому же каналу.</p>
+    </section>
+    <section class="section"><h2>7. Безопасность и технологии сайта</h2>
+      <p>Доступ к приложению ограничен оператором, запросы к API выполняются по HTTPS, а токены не включены в открытый код GitHub. Эта страница не использует скрипты аналитики, рекламные пиксели и отслеживающие cookie. Временная OAuth-страница GitHub Pages не является полноценным защищённым серверным callback и будет заменена до широкого запуска.</p>
+    </section>
+    <section class="section"><h2>8. Изменения</h2>
+      <p>При изменении функций, обработки данных, провайдеров или сроков хранения мы обновим документ и дату выше. До публичного запуска и подачи на App Review оператор должен убедиться, что изложенные сведения соответствуют реальной работе приложения.</p>
+    </section>
+  </article>
+  </main>
+  <footer>Client Hunter · Privacy Policy · <a href="#english">English</a> / <a href="#russian" lang="ru">Русский</a> · <a href="mailto:woruljye120@hotmail.com?subject=Client%20Hunter%20privacy%20request">Privacy contact</a></footer>
+</div>
+</body>
+</html>
